@@ -27,7 +27,6 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
         locationManager.requestAlwaysAuthorization()
         
         worldView.showsUserLocation = true
-        
     }
     
     override func didReceiveMemoryWarning() {
