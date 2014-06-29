@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830CB5D0194C8CB4002FA7E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830CB5CF194C8CB4002FA7E5 /* CoreLocation.framework */; };
+		830CB5D2194C8EFF002FA7E5 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830CB5D1194C8EFF002FA7E5 /* MapPoint.swift */; };
+		830CB5D3194C8EFF002FA7E5 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830CB5D1194C8EFF002FA7E5 /* MapPoint.swift */; };
 		839054801940F356006C4750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390547F1940F356006C4750 /* AppDelegate.swift */; };
 		839054821940F356006C4750 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839054811940F356006C4750 /* FirstViewController.swift */; };
 		839054841940F356006C4750 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839054831940F356006C4750 /* SecondViewController.swift */; };
 		839054871940F356006C4750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839054851940F356006C4750 /* Main.storyboard */; };
 		839054891940F356006C4750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839054881940F356006C4750 /* Images.xcassets */; };
 		839054951940F357006C4750 /* RowingTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839054941940F357006C4750 /* RowingTrackerTests.swift */; };
+		83BC0FD41942789F003F10E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC0FD31942789F003F10E5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +27,39 @@
 			remoteGlobalIDString = 839054791940F356006C4750;
 			remoteInfo = RowingTracker;
 		};
+		839054A71940F3FC006C4750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839054721940F356006C4750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839054791940F356006C4750;
+			remoteInfo = RowingTracker;
+		};
+		83B14CC61943D0F4002E6FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839054721940F356006C4750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839054791940F356006C4750;
+			remoteInfo = RowingTracker;
+		};
+		83BC0FDF1942B123003F10E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839054721940F356006C4750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839054791940F356006C4750;
+			remoteInfo = RowingTracker;
+		};
+		83BC0FE419438A07003F10E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839054721940F356006C4750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839054791940F356006C4750;
+			remoteInfo = RowingTracker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830CB5CF194C8CB4002FA7E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		830CB5D1194C8EFF002FA7E5 /* MapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
 		8390547A1940F356006C4750 /* RowingTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowingTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8390547E1940F356006C4750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8390547F1940F356006C4750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +70,8 @@
 		8390548E1940F357006C4750 /* RowingTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowingTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839054931940F357006C4750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839054941940F357006C4750 /* RowingTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowingTrackerTests.swift; sourceTree = "<group>"; };
+		83BC0FD31942789F003F10E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83BC0FD91942B123003F10E5 /* ArrayTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +79,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830CB5D0194C8CB4002FA7E5 /* CoreLocation.framework in Frameworks */,
+				83BC0FD41942789F003F10E5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8390548B1940F357006C4750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC0FD61942B123003F10E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,6 +104,8 @@
 		839054711940F356006C4750 = {
 			isa = PBXGroup;
 			children = (
+				830CB5CF194C8CB4002FA7E5 /* CoreLocation.framework */,
+				83BC0FD31942789F003F10E5 /* MapKit.framework */,
 				8390547C1940F356006C4750 /* RowingTracker */,
 				839054911940F357006C4750 /* RowingTrackerTests */,
 				8390547B1940F356006C4750 /* Products */,
@@ -70,6 +117,7 @@
 			children = (
 				8390547A1940F356006C4750 /* RowingTracker.app */,
 				8390548E1940F357006C4750 /* RowingTrackerTests.xctest */,
+				83BC0FD91942B123003F10E5 /* ArrayTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +125,7 @@
 		8390547C1940F356006C4750 /* RowingTracker */ = {
 			isa = PBXGroup;
 			children = (
+				830CB5D1194C8EFF002FA7E5 /* MapPoint.swift */,
 				8390547F1940F356006C4750 /* AppDelegate.swift */,
 				839054811940F356006C4750 /* FirstViewController.swift */,
 				839054831940F356006C4750 /* SecondViewController.swift */,
@@ -144,10 +193,31 @@
 			);
 			dependencies = (
 				839054901940F357006C4750 /* PBXTargetDependency */,
+				839054A81940F3FC006C4750 /* PBXTargetDependency */,
 			);
 			name = RowingTrackerTests;
 			productName = RowingTrackerTests;
 			productReference = 8390548E1940F357006C4750 /* RowingTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83BC0FD81942B123003F10E5 /* ArrayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BC0FE11942B123003F10E5 /* Build configuration list for PBXNativeTarget "ArrayTest" */;
+			buildPhases = (
+				83BC0FD51942B123003F10E5 /* Sources */,
+				83BC0FD61942B123003F10E5 /* Frameworks */,
+				83BC0FD71942B123003F10E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83BC0FE01942B123003F10E5 /* PBXTargetDependency */,
+				83BC0FE519438A07003F10E5 /* PBXTargetDependency */,
+				83B14CC71943D0F4002E6FFC /* PBXTargetDependency */,
+			);
+			name = ArrayTest;
+			productName = ArrayTest;
+			productReference = 83BC0FD91942B123003F10E5 /* ArrayTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -161,8 +231,21 @@
 				TargetAttributes = {
 					839054791940F356006C4750 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9K3DT7FM4R;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					8390548D1940F357006C4750 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 839054791940F356006C4750;
+					};
+					83BC0FD81942B123003F10E5 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 839054791940F356006C4750;
 					};
@@ -183,6 +266,7 @@
 			targets = (
 				839054791940F356006C4750 /* RowingTracker */,
 				8390548D1940F357006C4750 /* RowingTrackerTests */,
+				83BC0FD81942B123003F10E5 /* ArrayTest */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +288,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83BC0FD71942B123003F10E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				839054841940F356006C4750 /* SecondViewController.swift in Sources */,
+				830CB5D2194C8EFF002FA7E5 /* MapPoint.swift in Sources */,
 				839054801940F356006C4750 /* AppDelegate.swift in Sources */,
 				839054821940F356006C4750 /* FirstViewController.swift in Sources */,
 			);
@@ -222,6 +314,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				839054951940F357006C4750 /* RowingTrackerTests.swift in Sources */,
+				830CB5D3194C8EFF002FA7E5 /* MapPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BC0FD51942B123003F10E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +332,26 @@
 			isa = PBXTargetDependency;
 			target = 839054791940F356006C4750 /* RowingTracker */;
 			targetProxy = 8390548F1940F357006C4750 /* PBXContainerItemProxy */;
+		};
+		839054A81940F3FC006C4750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839054791940F356006C4750 /* RowingTracker */;
+			targetProxy = 839054A71940F3FC006C4750 /* PBXContainerItemProxy */;
+		};
+		83B14CC71943D0F4002E6FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839054791940F356006C4750 /* RowingTracker */;
+			targetProxy = 83B14CC61943D0F4002E6FFC /* PBXContainerItemProxy */;
+		};
+		83BC0FE01942B123003F10E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839054791940F356006C4750 /* RowingTracker */;
+			targetProxy = 83BC0FDF1942B123003F10E5 /* PBXContainerItemProxy */;
+		};
+		83BC0FE519438A07003F10E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839054791940F356006C4750 /* RowingTracker */;
+			targetProxy = 83BC0FE419438A07003F10E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -281,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -318,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,9 +451,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RowingTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -342,9 +467,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RowingTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -384,6 +514,42 @@
 			};
 			name = Release;
 		};
+		83BC0FE21942B123003F10E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RowingTracker.app/RowingTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArrayTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		83BC0FE31942B123003F10E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RowingTracker.app/RowingTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArrayTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,6 +569,7 @@
 				8390549A1940F357006C4750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8390549B1940F357006C4750 /* Build configuration list for PBXNativeTarget "RowingTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +578,16 @@
 				8390549D1940F357006C4750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BC0FE11942B123003F10E5 /* Build configuration list for PBXNativeTarget "ArrayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BC0FE21942B123003F10E5 /* Debug */,
+				83BC0FE31942B123003F10E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

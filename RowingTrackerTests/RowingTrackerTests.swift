@@ -7,8 +7,10 @@
 //
 
 import XCTest
+import CoreLocation
 
 class RowingTrackerTests: XCTestCase {
+    var tracker : LocationTracker = LocationTracker()
     
     override func setUp() {
         super.setUp()
@@ -25,11 +27,14 @@ class RowingTrackerTests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
+    func testGetLocation() {
+    }
+    
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }
